@@ -142,5 +142,120 @@ function calculateGrade(marks) {
     }
 }
 
+// stars
+showStars(10);
 
+function showStars(rows) {
+    let s = "";
+    while (rows > 0) {
+        s += "*";
+        console.log(s);
+        --rows;
+    }
+}
+
+// prime numbers
+showPrimes(20);
+
+function showPrimes(limit) {
+    for (let i = 2; i <= limit; i++) {
+        let j = i - 1;
+        let isPrime = true;
+        while (j > 1) {
+            if (i % j === 0) {
+                isPrime = false;
+                break;
+            }
+            --j;
+        }
+
+        if (isPrime) {
+            console.log(i)
+        }
+    }
+}
+
+// address object
+let address = {
+    street: "Foo Ave",
+    city: "Bar City",
+    zipCode: "011010"
+};
+showAddress(address);
+
+function showAddress(obj) {
+    for (let property in obj) {
+        console.log(property, obj[property]);
+    }
+}
+
+// factory and constructor functions
+function createAddress(street, city, zipCode){
+    return {
+        street,
+        city,
+        zipCode
+    };
+}
+
+function Address(street, city, zipCode) {
+    this.street = street,
+    this.city = city,
+    this.zipCode = zipCode
+}
+
+let address1 = new Address("foo st.", "bar city", "11111");
+let address2 = new Address("foo st.", "bar city", "11111");
+
+// object equality
+function areEqual(address1, address2) {
+    return address1.street === address2.street && address1.city === address2.city && address1.zipCode === address2.zipCode;
+}
+
+function areSame(address1, address2) {
+    return (address1 === address2);
+}
+
+console.log(areEqual(address1, address2));
+
+// blog post object
+let blogPost = {
+    title: "Foo",
+    body: "Bar",
+    author: "Baz",
+    views: 10,
+    comments: [
+        {
+            author: "Cat",
+            body: "Dog"
+        },
+        {
+            author: "Eel",
+            body: "Fog"
+        }
+    ],
+    isLive: true
+};
+
+console.log(blogPost);
+
+// constructor functions
+function Post(title, body, author) {
+    this.title = title;
+    this.body = body;
+    this.author = author;
+    this.views = 0;
+    this.comments = [];
+    this.isLive = false;
+}
+
+let post1 = new Post("a", "b", "c");
+console.log(post1);
+
+// price range object
+let priceRanges = [
+    { label: "$", tooltip: "Inexpensive", minPerPerson: 0, maxPerPerson: 10},
+    { label: "$$", tooltip: "Moderate", minPerPerson: 11, maxPerPerson: 20},
+    { label: "$$$", tooltip: "Expensive", minPerPerson: 21, maxPerPerson: 50},
+];
 
