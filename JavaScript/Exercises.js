@@ -259,3 +259,129 @@ let priceRanges = [
     { label: "$$$", tooltip: "Expensive", minPerPerson: 21, maxPerPerson: 50},
 ];
 
+// array from range
+const numbers = arrayFromRange(0, 5);
+console.log(numbers);
+
+function arrayFromRange(min, max) {
+    let tempArray = [];
+    for (let i = min; i <= max; i++) {
+        tempArray.push(i);
+    }
+
+    return tempArray;
+}
+
+// includes
+function includes(array, searchElement) {
+    for (let v of array) {
+        if (v === searchElement) {
+            return true;
+        }
+    }
+    return false;
+}
+
+console.log(includes(numbers, 6));
+
+// except
+const output1 = except(numbers, [1, 2]);
+console.log(output1);
+
+function except(array, excluded) {
+    return array.filter(function (element) {
+        for (let v of excluded) {
+            if (element === v) {
+                return false;
+            }
+        }
+
+        return true;
+    });
+}
+
+// moving an element
+const output2 = move(numbers, 2, -2);
+console.log("output2: ", output2);
+
+function move(array, index, offset) {
+    let newArray = [... array];
+    let newIndex = index + offset;
+    if (newIndex < 0 || newIndex > newArray.length - 1) {
+        console.error("Invalid offset");
+        return;
+    }
+
+    let v = newArray.splice(index, 1)[0];
+    newArray.splice(newIndex, 0, v);
+    return newArray;
+}
+
+// count occurences
+try {
+    const count = countOccurences(numbers, 1);
+    console.log(count);
+} catch (e) {
+    console.log(e.message);
+}
+
+function countOccurences(array, searchElement) {
+    if (!(Array.isArray(array))) {
+        throw new Error("Can only count occurences in an array");
+    }
+    return array.reduce((acc, element) => {
+            if (element === searchElement) {
+                return ++acc;
+            }
+            return acc;
+        }, 0)
+}
+
+// get max
+const maxNum = getMax(numbers);
+console.log(maxNum);
+
+function getMax(array) {
+    if (array.length === 0) {
+        return undefined;
+    }
+
+    return array.reduce((maxNum, element) => (maxNum > element) ? maxNum : element);
+}
+
+// movies
+const movies = [
+    { title: "a", year: 2018, rating: 4.5},
+    { title: "b", year: 2018, rating: 4.7},
+    { title: "c", year: 2018, rating: 3},
+    { title: "d", year: 2017, rating: 4.5},
+];
+
+const titles = movies
+    .filter(m => m.year === 2018 && m.rating >= 4)
+    .sort((a, b) => a.rating - b.rating)
+    .reverse()
+    .map(m => m.title);
+
+console.log(titles);
+
+// sum of arguments
+function sum(...items) {
+    if (Array.isArray(items[0])) {
+        items = [...items[0]];
+    }
+
+    return items.reduce((a, b) => a + b);
+}
+
+console.log(sum([1,2,3,4]));
+
+// area of circle
+const circle = {
+    radius: 1,
+    get area() {
+        return Math.PI * (this.radius * this.radius);
+    }
+};
+
+console.log(circle.area);
