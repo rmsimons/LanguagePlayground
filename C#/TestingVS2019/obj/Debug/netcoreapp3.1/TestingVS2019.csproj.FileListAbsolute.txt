@@ -1,0 +1,11 @@
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\TestingVS2019\bin\Debug\netcoreapp3.1\TestingVS2019.exe
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\TestingVS2019\bin\Debug\netcoreapp3.1\TestingVS2019.deps.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\TestingVS2019\bin\Debug\netcoreapp3.1\TestingVS2019.runtimeconfig.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\TestingVS2019\bin\Debug\netcoreapp3.1\TestingVS2019.runtimeconfig.dev.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\TestingVS2019\bin\Debug\netcoreapp3.1\TestingVS2019.dll
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\TestingVS2019\bin\Debug\netcoreapp3.1\TestingVS2019.pdb
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\TestingVS2019\obj\Debug\netcoreapp3.1\TestingVS2019.csprojAssemblyReference.cache
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\TestingVS2019\obj\Debug\netcoreapp3.1\TestingVS2019.AssemblyInfoInputs.cache
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\TestingVS2019\obj\Debug\netcoreapp3.1\TestingVS2019.AssemblyInfo.cs
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\TestingVS2019\obj\Debug\netcoreapp3.1\TestingVS2019.dll
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\TestingVS2019\obj\Debug\netcoreapp3.1\TestingVS2019.pdb

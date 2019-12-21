@@ -1,0 +1,11 @@
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\Exercises\bin\Debug\netcoreapp3.1\Exercises.exe
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\Exercises\bin\Debug\netcoreapp3.1\Exercises.deps.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\Exercises\bin\Debug\netcoreapp3.1\Exercises.runtimeconfig.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\Exercises\bin\Debug\netcoreapp3.1\Exercises.runtimeconfig.dev.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\Exercises\bin\Debug\netcoreapp3.1\Exercises.dll
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\Exercises\bin\Debug\netcoreapp3.1\Exercises.pdb
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\Exercises\obj\Debug\netcoreapp3.1\Exercises.csprojAssemblyReference.cache
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\Exercises\obj\Debug\netcoreapp3.1\Exercises.AssemblyInfoInputs.cache
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\Exercises\obj\Debug\netcoreapp3.1\Exercises.AssemblyInfo.cs
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\Exercises\obj\Debug\netcoreapp3.1\Exercises.dll
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\Exercises\obj\Debug\netcoreapp3.1\Exercises.pdb
