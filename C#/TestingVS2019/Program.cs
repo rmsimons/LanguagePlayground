@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using TestingVS2019.Math;
 
 namespace TestingVS2019
@@ -181,6 +182,44 @@ namespace TestingVS2019
             var password = new string(buffer);
             Console.WriteLine(password);
 
+
+            // working with arrays and lists
+            var numbersArray = new[] { 3, 8, 5, 2, 9 };
+
+            // length
+            Console.WriteLine("Length: " + numbersArray.Length);
+
+            // IndecOf()
+            var index = Array.IndexOf(numbersArray, 2);
+            Console.WriteLine("Index of 2: " + index);
+
+            // Clear()
+            Array.Clear(numbersArray, 0, 2);
+
+            // Copy()
+            var another = new int[3];
+            Array.Copy(numbersArray, another, 2);
+
+            // Sort()
+            Array.Sort(another);
+
+            // Reverse()
+            Array.Reverse(numbersArray);
+
+            var numberList = new List<int>() { 1, 2, 3, 4 };
+            numberList.Add(1);
+            numberList.AddRange(new int[3] { 5, 6, 7 });
+            foreach (var n in numberList)
+            {
+                Console.WriteLine(n);
+            }
+
+            Console.WriteLine("Index of 1: " + numberList.IndexOf(1));
+            Console.WriteLine("Last index of 1: " + numberList.LastIndexOf(1));
+            Console.WriteLine("Count: " + numberList.Count);
+            numberList.Remove(1);
+            numberList.Clear();
+               
         }
     }
 
