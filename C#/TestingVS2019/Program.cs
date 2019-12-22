@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using TestingVS2019.Math;
 
@@ -309,8 +310,54 @@ namespace TestingVS2019
             Console.WriteLine(builder);
             Console.WriteLine("First char: " + builder[0]);
 
+            // working with files
+            var path = @"c:\somefile.jpg";
 
+            File.Copy(@"c:\temp\myfile.jpg", @"d:\temp\myfile.jpg", true);
+            File.Delete(path);
+            if (File.Exists(path))
+            {
+                //
+            }
 
+            var content = File.ReadAllText(path);
+
+            var fileInfo = new FileInfo(path);
+            fileInfo.CopyTo("...");
+            fileInfo.Delete();
+            if (fileInfo.Exists)
+            {
+                //
+            }
+
+            // working with directories
+            Directory.CreateDirectory(@"c:\temp\foldr1");
+
+            var files = Directory.GetFiles(@"c:\foo\bar", "*.sln", SearchOption.AllDirectories);
+            foreach (var file in files)
+            {
+                Console.WriteLine(file);
+            }
+
+            var directories = Directory.GetDirectories(@"c:\foo\bar", "*.*", SearchOption.AllDirectories);
+            foreach (var directory in directories)
+            {
+                Console.WriteLine(directory);
+            }
+
+            Directory.Exists("...");
+
+            var directoryInfo = new DirectoryInfo("...");
+            directoryInfo.GetFiles();
+            directoryInfo.GetDirectories();
+
+            // working with path
+            var myPath = @"C:\foo\bar\bar.sln";
+
+            Console.WriteLine("Extension: " + Path.GetExtension(myPath));
+            Console.WriteLine("File name: " + Path.GetFileName(myPath));
+            Console.WriteLine("File name without extension: " + Path.GetFileNameWithoutExtension(myPath));
+            Console.WriteLine("Directory name: " + Path.GetDirectoryName(myPath));
         }
     }
 

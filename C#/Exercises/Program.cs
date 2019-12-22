@@ -28,6 +28,9 @@ namespace Exercises
             StringExercises.Exercise3();
             StringExercises.Exercise4();
             StringExercises.Exercise5();
+
+            FileExercises.Exercise1();
+            FileExercises.Exercise2();
         }
     }
 }
