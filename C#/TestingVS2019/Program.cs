@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using TestingVS2019.Math;
 
 namespace TestingVS2019
@@ -219,7 +220,97 @@ namespace TestingVS2019
             Console.WriteLine("Count: " + numberList.Count);
             numberList.Remove(1);
             numberList.Clear();
-               
+            
+            // date and time operations
+            var dateTime = new DateTime(2015, 1, 1);
+            var now = DateTime.Now;
+            var today = DateTime.Today;
+
+            Console.WriteLine("Hour: " + now.Hour);
+            Console.WriteLine("Minute: " + now.Minute);
+
+            var tmr = now.AddDays(1);
+            var yesterday = now.AddDays(-1);
+
+            Console.WriteLine(now.ToLongDateString());
+            Console.WriteLine(now.ToShortDateString());
+            Console.WriteLine(now.ToLongTimeString());
+            Console.WriteLine(now.ToShortTimeString());
+            Console.WriteLine(now.ToString("yyyy-MM-dd HH:mm"));
+
+            // time span operations
+
+            // creating
+            var timeSpan = new TimeSpan(1, 2, 3);
+
+            var timeSpan1 = new TimeSpan(1, 0, 0);
+            var timeSpan2 = TimeSpan.FromHours(1);
+
+            var start = DateTime.Now;
+            var end = DateTime.Now.AddMinutes(2);
+            var duration = end - start;
+            Console.WriteLine("Duration: " + duration);
+
+            // properties
+            Console.WriteLine("Minutes: " + timeSpan.Minutes);
+            Console.WriteLine("Total Minutes: " + timeSpan.TotalMinutes);
+
+            // Add
+            Console.WriteLine("Add Example: " + timeSpan.Add(TimeSpan.FromMinutes(8)));
+            Console.WriteLine("Subtract Example: " + timeSpan.Subtract(TimeSpan.FromMinutes(2)));
+
+            // ToString
+            Console.WriteLine("ToString: " + timeSpan);
+
+            // Parse
+            Console.WriteLine("Parse: " + TimeSpan.Parse("01:02:03"));
+
+            // string operations
+            var myName = "Harry Harryman";
+            Console.WriteLine("Trim: '{0}'", myName);
+            Console.WriteLine("ToUpper: '{0}'", myName.Trim().ToUpper());
+
+            var myIndex = myName.IndexOf(' ');
+            var myFirstName = myFullName.Substring(0, myIndex);
+            var myLastName = myFullName.Substring(myIndex + 1);
+            Console.WriteLine("FirstName: " + myFirstName);
+            Console.WriteLine("LastName: " + myLastName);
+
+            var myNames = myName.Split(' ');
+            Console.WriteLine("FirstName: " + myNames[0]);
+            Console.WriteLine("LastName: " + myNames[1]);
+            Console.WriteLine(myName.Replace("Harry", "Bob"));
+
+            if (String.IsNullOrWhiteSpace(" "))
+            {
+                Console.WriteLine("Invalid");
+            }
+
+            var str = "25";
+            var age = Convert.ToByte(str);
+            Console.WriteLine(age);
+
+            float myPrice = 29.95f;
+            Console.WriteLine(myPrice.ToString("C0"));
+
+            // string builder operations
+            var builder = new StringBuilder("Hello World");
+
+            builder
+                .Append('-', 10)
+                .AppendLine()
+                .Append("Header")
+                .AppendLine()
+                .Append('-', 10)
+                .Replace('-', '+')
+                .Remove(0, 10)
+                .Insert(0, new String('-', 10));
+
+            Console.WriteLine(builder);
+            Console.WriteLine("First char: " + builder[0]);
+
+
+
         }
     }
 
