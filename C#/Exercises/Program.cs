@@ -23,6 +23,11 @@ namespace Exercises
             ListExercises.Exercise4();
             ListExercises.Exercise5();
 
+            StringExercises.Exercise1();
+            StringExercises.Exercise2();
+            StringExercises.Exercise3();
+            StringExercises.Exercise4();
+            StringExercises.Exercise5();
         }
     }
 }
