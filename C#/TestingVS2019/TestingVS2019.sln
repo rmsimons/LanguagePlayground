@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBoard", "..\MessageB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStack", "..\CustomStack\CustomStack.csproj", "{C41589DA-B037-4AE5-A64F-5CC884138654}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomDB", "..\CustomDB\CustomDB.csproj", "{5B70503E-65EE-4B3F-B525-199D33ED2530}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C41589DA-B037-4AE5-A64F-5CC884138654}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41589DA-B037-4AE5-A64F-5CC884138654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C41589DA-B037-4AE5-A64F-5CC884138654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B70503E-65EE-4B3F-B525-199D33ED2530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B70503E-65EE-4B3F-B525-199D33ED2530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B70503E-65EE-4B3F-B525-199D33ED2530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B70503E-65EE-4B3F-B525-199D33ED2530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
