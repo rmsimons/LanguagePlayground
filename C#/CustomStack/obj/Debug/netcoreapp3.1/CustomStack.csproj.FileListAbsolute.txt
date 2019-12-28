@@ -1,0 +1,11 @@
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\CustomStack\bin\Debug\netcoreapp3.1\CustomStack.exe
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\CustomStack\bin\Debug\netcoreapp3.1\CustomStack.deps.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\CustomStack\bin\Debug\netcoreapp3.1\CustomStack.runtimeconfig.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\CustomStack\bin\Debug\netcoreapp3.1\CustomStack.runtimeconfig.dev.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\CustomStack\bin\Debug\netcoreapp3.1\CustomStack.dll
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\CustomStack\bin\Debug\netcoreapp3.1\CustomStack.pdb
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\CustomStack\obj\Debug\netcoreapp3.1\CustomStack.csprojAssemblyReference.cache
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\CustomStack\obj\Debug\netcoreapp3.1\CustomStack.AssemblyInfoInputs.cache
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\CustomStack\obj\Debug\netcoreapp3.1\CustomStack.AssemblyInfo.cs
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\CustomStack\obj\Debug\netcoreapp3.1\CustomStack.dll
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\CustomStack\obj\Debug\netcoreapp3.1\CustomStack.pdb
