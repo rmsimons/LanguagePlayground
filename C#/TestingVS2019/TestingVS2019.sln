@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStack", "..\CustomSta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomDB", "..\CustomDB\CustomDB.csproj", "{5B70503E-65EE-4B3F-B525-199D33ED2530}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowEngine", "..\WorkflowEngine\WorkflowEngine.csproj", "{0A49C86F-7678-49D5-9BAE-80171294458D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{5B70503E-65EE-4B3F-B525-199D33ED2530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B70503E-65EE-4B3F-B525-199D33ED2530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B70503E-65EE-4B3F-B525-199D33ED2530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A49C86F-7678-49D5-9BAE-80171294458D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A49C86F-7678-49D5-9BAE-80171294458D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A49C86F-7678-49D5-9BAE-80171294458D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A49C86F-7678-49D5-9BAE-80171294458D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

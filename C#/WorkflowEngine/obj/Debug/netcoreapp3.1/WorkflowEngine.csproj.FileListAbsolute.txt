@@ -1,0 +1,11 @@
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\WorkflowEngine\bin\Debug\netcoreapp3.1\WorkflowEngine.exe
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\WorkflowEngine\bin\Debug\netcoreapp3.1\WorkflowEngine.deps.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\WorkflowEngine\bin\Debug\netcoreapp3.1\WorkflowEngine.runtimeconfig.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\WorkflowEngine\bin\Debug\netcoreapp3.1\WorkflowEngine.runtimeconfig.dev.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\WorkflowEngine\bin\Debug\netcoreapp3.1\WorkflowEngine.dll
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\WorkflowEngine\bin\Debug\netcoreapp3.1\WorkflowEngine.pdb
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\WorkflowEngine\obj\Debug\netcoreapp3.1\WorkflowEngine.csprojAssemblyReference.cache
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\WorkflowEngine\obj\Debug\netcoreapp3.1\WorkflowEngine.AssemblyInfoInputs.cache
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\WorkflowEngine\obj\Debug\netcoreapp3.1\WorkflowEngine.AssemblyInfo.cs
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\WorkflowEngine\obj\Debug\netcoreapp3.1\WorkflowEngine.dll
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\WorkflowEngine\obj\Debug\netcoreapp3.1\WorkflowEngine.pdb
