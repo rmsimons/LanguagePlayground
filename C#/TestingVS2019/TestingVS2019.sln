@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomDB", "..\CustomDB\Cus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowEngine", "..\WorkflowEngine\WorkflowEngine.csproj", "{0A49C86F-7678-49D5-9BAE-80171294458D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageFeatures", "..\LanguageFeatures\LanguageFeatures.csproj", "{6D8BF2D8-CCD6-4862-92AB-AC3E63BF5904}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0A49C86F-7678-49D5-9BAE-80171294458D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A49C86F-7678-49D5-9BAE-80171294458D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A49C86F-7678-49D5-9BAE-80171294458D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8BF2D8-CCD6-4862-92AB-AC3E63BF5904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8BF2D8-CCD6-4862-92AB-AC3E63BF5904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8BF2D8-CCD6-4862-92AB-AC3E63BF5904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8BF2D8-CCD6-4862-92AB-AC3E63BF5904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
