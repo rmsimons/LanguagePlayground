@@ -1,0 +1,11 @@
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\LanguageFeatures\bin\Debug\netcoreapp3.1\LanguageFeatures.exe
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\LanguageFeatures\bin\Debug\netcoreapp3.1\LanguageFeatures.deps.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\LanguageFeatures\bin\Debug\netcoreapp3.1\LanguageFeatures.runtimeconfig.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\LanguageFeatures\bin\Debug\netcoreapp3.1\LanguageFeatures.runtimeconfig.dev.json
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\LanguageFeatures\bin\Debug\netcoreapp3.1\LanguageFeatures.dll
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\LanguageFeatures\bin\Debug\netcoreapp3.1\LanguageFeatures.pdb
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\LanguageFeatures\obj\Debug\netcoreapp3.1\LanguageFeatures.csprojAssemblyReference.cache
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\LanguageFeatures\obj\Debug\netcoreapp3.1\LanguageFeatures.AssemblyInfoInputs.cache
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\LanguageFeatures\obj\Debug\netcoreapp3.1\LanguageFeatures.AssemblyInfo.cs
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\LanguageFeatures\obj\Debug\netcoreapp3.1\LanguageFeatures.dll
+C:\Users\simon\CodingPractice\github.com\rmsimons\LanguagePlayground\C#\LanguageFeatures\obj\Debug\netcoreapp3.1\LanguageFeatures.pdb
